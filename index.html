@@ -11,13 +11,37 @@
 
 <body>
     <header class="cabeçalho">
-       <span class="cabeçalho__menu-hamburguer"></span>
-       <img src="img/Logo.svg" alt="Logo da AluraBooks">
-       <a href="#"><img scr="img/Favoritos.svg"></a>
-       <a href="#"><img scr="img/Compras.svg"></a>
-       <a href="#"><img scr="img/Usuario.svg"></a>
+       <div class="container">
+           <input type="checkbox" id="menu" class="container__botão">
+           <label for="menu">
+        <span class="cabeçalho__menu-hamburguer container__imagem"></span>
+    </label>
+    <ul claas="lista-menu">
+        <li class="lista-menu__titulo">Categorias</li>
+        <li class="lista-menu__item">
+            <a href="#" class="lista-menu__link">Programação</a>
+        </li>
+        <li class="lista-menu__item">
+            <a href="#" class="lista-menu__link">Front-end</a>
+        </li>
+        <li class="lista-menu__item">
+            <a href="#" class="lista-menu__link">Insfraestrutura</a>
+        </li>
+        <li class="lista-menu__item">
+            <a href="#" class="lista-menu__link">Business</a>
+        </li>
+        <li class="lista-menu__item">
+            <a href="#" class="lista-menu__link">Design & UX</a>
+        </li>
+    </ul>
+        <img src="img/logo.svg" alt="Logo da AluraBooks" class="container__imagem">
+       </div>
+       <div class="container">
+        <a href="#"> <img src="img/Favoritos.svg" alt="Meus favoritos" class="container__imagem"></a>
+        <a href="#"><img src="img/comprar.svg" alt="carrinhos de compras" class="container__imagem"></a>
+        <a href="#"><img src="img/usuarios.svg" alt="meu perfil" class="container__imagem"></src></a>
+       </div>
     </header>
-
 </body>
 
 </html>
