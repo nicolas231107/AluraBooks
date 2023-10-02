@@ -7,3 +7,18 @@
     font-weight: 700;
     padding: 1em 0 0.5em 0;
 }
+
+.swiper-slide img {
+    width: 100%;  <!-- If we need pagination -->
+    <div class="swiper-pagimation"></div>
+}
+
+.swiper-button-prev,
+.swiper-button-netx {
+    display: none;
+}
+
+.swiper-pagination {
+    position: initial;
+    margin: 5em 0;
+}
